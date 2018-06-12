@@ -1,10 +1,10 @@
 # Terraform code to create ec2 instance
 variable "AWS_ACCESS_KEY" {
-  default = "AKIAJGCYZWZB47MSTXIA"
+  default = "*************"
 }
 
 variable "AWS_SECRET_KEY" {
-  default = "3EanxKiBPaYpVfDbEptCEda+FYlrYSi5wWzpXG8K"
+  default = "**********************"
 }
 
 provider "aws"{
