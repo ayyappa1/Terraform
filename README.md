@@ -1,6 +1,5 @@
 # Terraform
 
-Terraform
 Terraform is command line tool for building, changing, and versioning infrastructure, it supports popular cloud providers including Amazon AWS. Configuration files describe the infrastructure components needed to run a single application, for example, an EC2 instance with an attached EBS volume.
 
 Terraform generates an execution plan, describing what it will do to reach the desired state, then executes it to build the described infrastructure. As the configuration changes, Terraform is able to determine what has changed and creates incremental execution plans that can be applied. The actual state of AWS resources managed by Terraform is stored in a terraform.tfstate file that is created after the first run of Terraform.
