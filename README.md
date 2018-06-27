@@ -10,17 +10,22 @@ Execution plans: Terraform has a “planning” step where it generates an execu
 Resource graph: Terraform builds a graph of all your resources in order to create or modify non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure.
 Change automation: Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly what Terraform will change and in what order, avoiding many possible human errors.
 
+
 Read more:
 
 Terraform configuration syntax
 Terraform resources
 
+
 Usage
 terraform.tfvars holds variables which should be overriden with valid ones.
 
 Plan
-terraform plan -var-file terraform.tfvars
+terraform plan -var-file terraform.tfvar
+
 Apply
 terraform apply -var-file terraform.tfvars
+
+
 Destroy
 terraform destroy -var-file terraform.tfvars
