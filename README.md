@@ -18,14 +18,18 @@ Terraform resources
 
 
 Usage
+
 terraform.tfvars holds variables which should be overriden with valid ones.
 
 Plan
+
 terraform plan -var-file terraform.tfvar
 
 Apply
+
 terraform apply -var-file terraform.tfvars
 
 
 Destroy
+
 terraform destroy -var-file terraform.tfvars
